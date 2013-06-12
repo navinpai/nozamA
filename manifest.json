@@ -5,17 +5,16 @@
     },
     "content_scripts": [
         {
-           /* "css": [
-                "jquery-ui-1.8.5.custom.css"
-            ],*/
+           "css": [
+                "price-watch.css"
+            ],
             "js": [
                 "jquery-1.4.1.min.js","popup.js"/*,
                 "jquery-ui-1.8.5.custom.min.js",*/
             ],
             "matches": [
-                "http://www.flipkart.com/*",
-                "http://www.amazon.in/*"
-            ],
+                "http://www.flipkart.com/*"            
+                ],
             "run_at": "document_end"
         }
     ],
